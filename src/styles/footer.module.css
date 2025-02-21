@@ -1,0 +1,29 @@
+.footer {
+  width: 100%;
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+  border-top: 4px solid #ff6347;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footer .socials {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.footer .socials a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.footer .socials a:hover {
+  color: #ff6347;
+}
