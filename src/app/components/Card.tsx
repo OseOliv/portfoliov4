@@ -11,7 +11,7 @@ interface CardProps {
   imageHeight?: number;
 }
 
-export default function Card({ image, title, description, buttons, techButtons, imageWidth = 300, imageHeight = 150 }: CardProps) {
+export default function Card({ image, title, description, buttons, techButtons, imageWidth, imageHeight }: CardProps) {
   return (
     <div className={styles.card}>
       <div className={styles.cardImage} style={{ width: imageWidth, height: imageHeight }}>
