@@ -1,0 +1,73 @@
+.card {
+  display: flex;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.cardImage {
+  flex: 1;
+  position: relative;
+  margin-right: 1rem;
+  width: auto; 
+}
+
+.cardContent {
+  flex: 2;
+}
+
+.cardTitle {
+  font-size: 1.4rem;
+  color: #444;
+  margin: 0;
+}
+
+.cardDescription {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #666;
+  margin: 0.5rem 0;
+}
+
+.cardButtons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.cardButton {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+
+.cardButton:hover {
+  background-color: #0056b3;
+}
+
+.cardTechButtons {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.cardTechButton {
+  padding: 0.3rem 0.6rem;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+
+.cardTechButton:hover {
+  background-color: #218838;
+}
